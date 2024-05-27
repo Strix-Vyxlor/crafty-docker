@@ -55,5 +55,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/minecraft-docker:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/crafty-docker:latest
           platforms: linux/amd64, linux/arm64
